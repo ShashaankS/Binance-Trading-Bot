@@ -23,4 +23,4 @@ A Python-based command-line trading bot for Binance **Futures** using the offici
 git clone https://github.com/yourusername/binance-futures-bot.git
 cd binance-futures-bot
 pip install python-binance
-python cli.py
+python3 cli.py --api-key YOUR_API_KEY --api-secret YOUR_API_SECRET
