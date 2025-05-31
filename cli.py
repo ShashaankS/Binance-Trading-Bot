@@ -152,8 +152,7 @@ def main():
     parser.add_argument('--api-key', required=True, help='Binance API Key')
     parser.add_argument('--api-secret', required=True, help='Binance API Secret')
     parser.add_argument('--mainnet', action='store_true', help='Use mainnet instead of testnet')
-    parser.add_argument('--log-level', default='INFO', choices=['DEBUG', 'INFO', 'WARNING', 'ERROR'],
-                       help='Logging level')
+    parser.add_argument('--log-level', default='INFO', choices=['DEBUG', 'INFO', 'WARNING', 'ERROR'],help='Logging level')
     
     args = parser.parse_args()
     

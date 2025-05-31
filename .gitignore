@@ -1,0 +1,6 @@
+# testing environment folders
+__pycache__
+venv
+
+# log files
+*.log
